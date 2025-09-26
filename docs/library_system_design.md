@@ -300,3 +300,4 @@ CREATE TABLE password_resets (
 
 ## 11. Prompt (English) for Prototyping Tools
 > "Design and prototype a university library book borrowing system built with PHP 8 on the XAMPP stack. Include user login/registration, book search and borrowing with configurable durations, unique borrow-code confirmation (with optional QR), user dashboards showing current loans and due dates, and return workflows by code or QR scan. Provide an admin panel for inventory management, borrowing records, overdue alerts, and user management. Ensure the UI is responsive using HTML5, CSS3, and JavaScript, and all data persists in a MySQL database."
+

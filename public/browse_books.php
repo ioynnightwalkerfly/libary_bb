@@ -68,6 +68,9 @@ include __DIR__ . '/includes/header.php';
         <div class="search-grid">
             <?php foreach ($books as $book): ?>
                 <div class="search-result">
+                    <?php if (!empty($book['cover_image'])): ?>
+                        <img class="book-cover" src="<?= sanitize($book['cover_image']); ?>" alt="Cover of <?= sanitize($book['title']); ?>">
+                    <?php endif; ?>
                     <h3><?= sanitize($book['title']); ?></h3>
                     <p><strong>Author:</strong> <?= sanitize($book['author']); ?></p>
                     <p><strong>Category:</strong> <?= sanitize($book['category_name'] ?? 'Uncategorized'); ?></p>

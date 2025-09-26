@@ -80,6 +80,7 @@ include __DIR__ . '/includes/header.php';
 </section>
 <section class="card">
     <div class="table-actions">
+        <a class="button" href="admin_book_form.php">Add Book</a>
         <a class="button" href="admin_books.php">Manage Books</a>
         <a class="button" href="admin_borrows.php">Borrow Records</a>
         <a class="button" href="admin_users.php">Manage Users</a>
